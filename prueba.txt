@@ -1,0 +1,6 @@
+curl -X POST [URL]/dev/comentario/crear \
+  -H "Content-Type: application/json" \
+  -d '{
+    "tenant_id": "gcolchado@utec.edu.pe",
+    "texto": "comentario de prueba"
+  }'
